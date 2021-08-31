@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pictures</title>
+</head>
+<body>
+    <h1>Aqui vamos mostrar nossa foto</h1>
+    <p>Abrindo em varios dispositivos</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto grande">
+    </picture>
+    <h1>Reproduzindo Podcast</h1>
+    <p>Ouça o podcast</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="" type="audio/mpeg">
+        <source src="" type="audio/ogg">
+        <source src="" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir</p>
+    </audio>
+</body>
+</html>
